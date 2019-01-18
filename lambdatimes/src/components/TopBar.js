@@ -3,8 +3,8 @@ import styled from 'styled-components';
 
 
 
-const TopBarDiv = styled.div
-  `width: 100%;
+const TopBarDiv = styled.div `
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: none;
@@ -13,8 +13,8 @@ const TopBarDiv = styled.div
   height: 44px;
   background-color: #333;`
 
-const TopBarContainer = styled.div 
-  `width: 100%;
+const TopBarContainer = styled.div `
+  width: 100%;
   display: flex;
   justify-content: none;
   align-items: none;
@@ -26,43 +26,43 @@ const TopBarContainer = styled.div
       width: 1280px;
     }`
 
-const TopBarContainerLeft = styled.div
-  `display: flex;
+const TopBarContainerLeft = styled.div `
+  display: flex;
   justify-content: none;
   align-items: center;
   flex-direction: row;
   flex: 1;
   font-size: 11px;`
 
-  const TBCLSpan = styled.span
-    `cursor: pointer;
+  const TBCLSpan = styled.span`
+    cursor: pointer;
     margin-right: 25%;
     font-weight: bold;`
 
-const TopBarContainerCenter = styled.div
-  `display: flex;
+const TopBarContainerCenter = styled.div `
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
   flex: 3;
   font-size: 9px;`
 
-  const TBCCSpan = styled.span
-    `cursor: pointer;
+  const TBCCSpan = styled.span `
+    cursor: pointer;
     margin-right: 5%;
     :hover {
       text-decoration: underline;
     }`
 
-  const TBCCSpanLC = styled.span
-    `cursor: pointer;
+  const TBCCSpanLC = styled.span `
+    cursor: pointer;
     margin-right: 0;
     :hover {
       text-decoration: underline;
     }`
 
-const TopBarContainerRight = styled.div
-  `display: flex;
+const TopBarContainerRight = styled.div `
+  display: flex;
   justify-content: flex-end;
   align-items: center;
   flex-direction: row;
@@ -70,8 +70,8 @@ const TopBarContainerRight = styled.div
   font-size: 11px;
   font-weight: bold;`
 
-  const TBCRSpan = styled.span
-    `cursor: pointer;`
+  const TBCRSpan = styled.span `
+    cursor: pointer;`
 
 // Refactor this component to use styled components and not classNames. 
 // You can find the corresponding CSS in the CSS/index.css file
